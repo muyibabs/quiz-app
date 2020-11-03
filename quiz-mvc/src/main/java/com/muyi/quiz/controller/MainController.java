@@ -16,6 +16,11 @@ import java.util.List;
 @SessionAttributes({"currentQuestion","questionIds","quiz","result"})
 public class MainController {
 
+    ///////////////////////////////
+    //To do
+    //Update result page to show more info(time taken, how many correct answers, pass or fail)
+    //Implement the bonus features
+    //////////////////////////////
     @Autowired
     private QuizServiceProxy quizServiceProxy;
 
